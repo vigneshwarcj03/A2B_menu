@@ -2,11 +2,10 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import menuData from "@/data/menu";
 
 export default function MenuPage() {
   const [searchTerm, setSearchTerm] = useState("");
-
-  const menuData = require("@/data/menu").default;
 
   const filteredMenu = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
