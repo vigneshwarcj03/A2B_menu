@@ -47,6 +47,7 @@ export default function MenuPage() {
                   width={120}
                   height={80}
                   className="opacity-90"
+                  style={{ width: "auto", height: "auto" }}
                 />
               </div>
             </div>

@@ -41,7 +41,7 @@ export default function Home() {
 
             {/* LOGO */}
             <div className="flex justify-center">
-              <Image src="/logo.png" alt="Logo" width={80} height={55} />
+              <Image src="/logo.png" alt="Logo" width={80} height={55} style={{ width: "auto", height: "auto" }} />
             </div>
 
             {/* TITLE */}
@@ -171,7 +171,7 @@ export default function Home() {
 
         {/* LOGO */}
         <div className="flex justify-center">
-          <Image src="/logo.png" alt="Logo" width={90} height={70} />
+          <Image src="/logo.png" alt="Logo" width={90} height={70} style={{ width: "auto", height: "auto" }} />
         </div>
 
         {/* TITLE */}
