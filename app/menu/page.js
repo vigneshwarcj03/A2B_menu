@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import menuData from "@/data/menu";
 
 export default function MenuPage() {
@@ -72,6 +73,14 @@ export default function MenuPage() {
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
+
+          {/* Back to Home */}
+          <Link
+            href="/"
+            className="text-white/40 hover:text-yellow-400 text-sm tracking-wide transition mt-4 inline-block"
+          >
+            ← Back to Home
+          </Link>
         </div>
 
         {/* GRID MENU */}
